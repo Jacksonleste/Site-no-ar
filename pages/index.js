@@ -1,5 +1,11 @@
 function Home() {
-    return <h1>Meu site</h1>
+    return (<div>
+        <h1>Home</h1>
+
+        <Link href="/sobre">
+            <a>acessar página sobre</a>
+        </Link>
+    </div>)
 }
 
 export default  Home
